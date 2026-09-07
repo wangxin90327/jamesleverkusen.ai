@@ -1,0 +1,18 @@
+{
+  "name": "axiomnorth-aipro",
+  "version": "1.0.0",
+  "private": true,
+  "description": "James Leverkusen website for Cloudflare Workers Static Assets",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "deploy": "wrangler deploy",
+    "dev": "npm run build && wrangler dev"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}
