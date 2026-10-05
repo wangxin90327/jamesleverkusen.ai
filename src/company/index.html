@@ -5,20 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="Learn about James Leverkusen, its 2019 founding, long-duration capital base, and dedicated AI computing infrastructure." />
     <meta name="theme-color" content="#07101d" />
-    <link rel="canonical" href="https://www.axiomnorth.ai/company/" />
+    <link rel="canonical" href="https://jamesleverkusen.com/company/" />
     <title>Company — James Leverkusen</title>
     <link rel="stylesheet" href="/styles.css" />
+    <!-- @include:head-icons -->
   </head>
   <body class="subpage">
     <a class="skip-link" href="#main">Skip to content</a>
-    <header class="site-header">
-      <a class="brand" href="/" aria-label="James Leverkusen home"><span class="brand-mark" aria-hidden="true">JL</span><span class="brand-name">James <em>Leverkusen</em></span></a>
-      <nav class="primary-nav" aria-label="Primary navigation">
-        <a href="/#team">Leadership</a><a href="/company/" aria-current="page">Company</a><a href="/thesis/">Thesis</a><a href="/focus/">Focus</a><a href="/approach/">Approach</a>
-      </nav>
-      <a class="header-link" href="/contact/">Contact</a>
-      <details class="mobile-nav"><summary>Menu</summary><nav aria-label="Mobile navigation"><a href="/">Home</a><a href="/#team">Leadership</a><a href="/company/" aria-current="page">Company</a><a href="/thesis/">Thesis</a><a href="/focus/">Focus</a><a href="/approach/">Approach</a><a href="/contact/">Contact</a></nav></details>
-    </header>
+    <!-- @include:header -->
 
     <main id="main" class="subpage-main">
       <section class="about section" id="company">
@@ -39,6 +33,80 @@
             </div>
           </div>
 
+          <div class="company-carousel" data-carousel aria-label="Company operations and AI infrastructure">
+            <div class="company-carousel-viewport">
+              <figure class="company-slide is-active" data-carousel-slide aria-hidden="false">
+                <img src="/company-media/leadership-infrastructure.webp" alt="Charlotte Pritzker inside an AI computing facility" width="1600" height="900" fetchpriority="high" />
+                <figcaption>
+                  <span>01</span>
+                  <div>
+                    <p>Leadership in infrastructure</p>
+                    <strong>Technology, operations, and capital aligned for long-term execution.</strong>
+                  </div>
+                </figcaption>
+              </figure>
+
+              <figure class="company-slide" data-carousel-slide aria-hidden="true">
+                <img src="/company-media/operations-planning.webp" alt="Operational planning session for a technology facility" width="1600" height="900" loading="lazy" />
+                <figcaption>
+                  <span>02</span>
+                  <div>
+                    <p>Systems planning</p>
+                    <strong>Operational discipline applied from facility design to deployment.</strong>
+                  </div>
+                </figcaption>
+              </figure>
+
+              <figure class="company-slide" data-carousel-slide aria-hidden="true">
+                <img src="/company-media/dedicated-compute.webp" alt="Rows of liquid-cooled computing systems in an AI facility" width="1600" height="900" loading="lazy" />
+                <figcaption>
+                  <span>03</span>
+                  <div>
+                    <p>Dedicated compute</p>
+                    <strong>Purpose-built capacity for AI research and technical evaluation.</strong>
+                  </div>
+                </figcaption>
+              </figure>
+
+              <figure class="company-slide" data-carousel-slide aria-hidden="true">
+                <img src="/company-media/high-performance-systems.webp" alt="High-performance computing racks and cooling systems" width="1600" height="900" loading="lazy" />
+                <figcaption>
+                  <span>04</span>
+                  <div>
+                    <p>High-performance systems</p>
+                    <strong>Infrastructure engineered for resilient, data-intensive workloads.</strong>
+                  </div>
+                </figcaption>
+              </figure>
+
+              <figure class="company-slide" data-carousel-slide aria-hidden="true">
+                <img src="/company-media/scalable-ai-facility.webp" alt="Large-scale AI data center with advanced cooling infrastructure" width="1600" height="900" loading="lazy" />
+                <figcaption>
+                  <span>05</span>
+                  <div>
+                    <p>Scalable AI facilities</p>
+                    <strong>A foundation designed to grow with evolving computational demand.</strong>
+                  </div>
+                </figcaption>
+              </figure>
+            </div>
+
+            <div class="company-carousel-ui">
+              <p class="company-carousel-status" aria-live="polite"><span data-carousel-current>01</span> / 05</p>
+              <div class="company-carousel-dots" aria-label="Choose a slide">
+                <button class="is-active" type="button" data-carousel-to="0" aria-label="Show leadership in infrastructure" aria-current="true"></button>
+                <button type="button" data-carousel-to="1" aria-label="Show systems planning"></button>
+                <button type="button" data-carousel-to="2" aria-label="Show dedicated compute"></button>
+                <button type="button" data-carousel-to="3" aria-label="Show high-performance systems"></button>
+                <button type="button" data-carousel-to="4" aria-label="Show scalable AI facilities"></button>
+              </div>
+              <div class="company-carousel-arrows">
+                <button type="button" data-carousel-prev aria-label="Previous image">←</button>
+                <button type="button" data-carousel-next aria-label="Next image">→</button>
+              </div>
+            </div>
+          </div>
+
           <dl class="company-facts">
             <div><dt>Established</dt><dd>2019</dd></div>
             <div><dt>Capital base</dt><dd>Private, long-duration capital</dd></div>
@@ -54,10 +122,7 @@
       </section>
     </main>
 
-    <footer>
-      <div class="footer-primary"><a class="brand footer-brand" href="/"><span class="brand-mark" aria-hidden="true">JL</span><span class="brand-name">James <em>Leverkusen</em></span></a><p>11150 Santa Monica Blvd, Suite 1500 · Los Angeles, CA 90025</p></div>
-      <nav class="footer-nav" aria-label="Footer navigation"><a href="/#team">Leadership</a><a href="/company/">Company</a><a href="/thesis/">Thesis</a><a href="/focus/">Focus</a><a href="/approach/">Approach</a><a href="/contact/">Contact</a><a href="/contact/#privacy">Privacy</a><a href="/contact/#terms">Terms</a><a href="/contact/#risk">Risk</a></nav>
-      <div class="footer-meta"><p>© 2026 James Leverkusen. All rights reserved.</p></div>
-    </footer>
+    <script src="/company-carousel.js" defer></script>
+    <!-- @include:footer -->
   </body>
 </html>
