@@ -10,7 +10,7 @@
     "dev": "npm run build && wrangler dev"
   },
   "engines": {
-    "node": ">=22"
+    "node": ">=20"
   },
   "devDependencies": {
     "wrangler": "^4.0.0"
